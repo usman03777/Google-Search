@@ -1,0 +1,166 @@
+* {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+    float: right;
+    position: relative;
+    padding: 1px;
+    height: 64vh;
+    box-sizing: border-box;
+
+    
+}
+.nav ul {
+    justify-content: center;
+    padding-right: 50px;
+    padding-top: 25px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.nav ul li {
+    align-items: center;
+    padding-right: 20px;
+    color: black;
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+}
+.nav ul li:hover {
+    text-decoration: underline;
+}
+.nav img {
+    position: absolute;
+    right: 7%;
+    top: 1%;
+    margin-top: 14px;
+    display: inline;
+    
+    border-radius: 20px;
+    width: 40px;
+}
+.center img {
+    width: 400px;
+    box-sizing: border-box;
+    padding: 30px;
+    position: absolute;
+    top: 20%;
+    left: 35.3%;
+}
+.searchbox {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    
+}
+
+.searchbox input {
+    width: 530px;
+    height: 35px;
+    border: 1.9px solid rgb(212, 212, 212);
+    border-radius: 20px;
+    position: relative;
+    outline: none;
+}
+.search img{
+   width: 85px;
+   position: absolute;
+   left: -20px;
+   top: -22px;
+   box-sizing: border-box;
+   padding-bottom: 300px;
+   
+}
+.microphone img{
+    position: absolute;
+    width: 76px;
+    top: 309px;
+    left: 982px;
+}
+.button {
+    top: 390px;
+    left: 650px;
+    position: absolute;
+}
+.button1 {
+    padding: 10px 10PX;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 1px solid #F8F9FA;
+    border-radius: 4px;
+    color: rgb(34, 34, 34);
+}
+.button2 {
+    padding: 10px 10PX;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 1px solid #F8F9FA;
+    border-radius: 4px;
+    color: rgb(34, 34, 34);
+}
+.text {
+    position: absolute;
+    top: 440px;
+    left: 665px;
+    padding-top: 20px;
+    padding-left: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+    width: 90%;
+    
+
+
+}
+.firstline {
+    scroll-behavior: auto;
+    background-color: rgb(238, 238, 238);
+    position: absolute;
+    width: 99%;
+    padding: 10px 0;
+    top: 728px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 46, 46);
+}
+.secondline {
+    color: rgb(46, 46, 46);
+    background-color: rgb(238, 238, 238);
+    position: absolute;
+    width: 99%;
+    padding: 10px 0;
+    top: 770px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.about {
+    padding: 0 30px 0 0;
+}
+.advertising {
+    padding: 0 30px 0 0;
+}
+.thirdline {
+    position: absolute;
+    top: 780px;
+    left: 1400px;
+    color: rgb(46, 46, 46);
+}
+.privacy {
+    margin: 0 0 0 10px;
+    
+}
+.team {
+    margin: 0 0 0 20px;
+}
+.settings {
+    padding: 0 20px 0 15px;
+}
